@@ -21,10 +21,3 @@ public class Triangle {
 		return "Triangle: " + "A" + a + " B" + b + " C" + c;
 	}
 }
-
-/*redo
-public Point getVex(int n) {
-
-}
-redo
-*/
