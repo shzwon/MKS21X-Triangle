@@ -19,20 +19,20 @@ public class Triangle {
 
   public Point getVertex(int num) {
     switch (num) {
-      case 0: return new Point(v1);
-      case 1: return new Point(v2);
-      case 2: return new Point(v3);
+      case 0: return new Point(a);
+      case 1: return new Point(b);
+      case 2: return new Point(c);
     }
     return new Point(0.0, 0.0);
   }
 
   public void setVertex(int num, Point newPoint) {
     switch (num) {
-      case 0: v1 = newPoint;
+      case 0: a = newPoint;
       break;
-      case 1: v2 = newPoint;
+      case 1: b = newPoint;
       break;
-      case 2: v3 = newPoint;
+      case 2: c = newPoint;
     }
   }
 
