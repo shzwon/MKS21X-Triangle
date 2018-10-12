@@ -1,4 +1,3 @@
-
 public class Driver{
 
   public static double distance(Point a, Point b){
@@ -8,7 +7,6 @@ public class Driver{
   public static void main(String[]args){
     Point p1 = new Point(1,1);
     Point p2 = new Point(2,2);
-    Point p3 = new Point(3,3);
     System.out.println("Testing the distance 3 ways, should all be sqrt(2)");
     System.out.println(  distance(p1,p2)); //static in the Driver class
     System.out.println(  Point.distance(p1,p2)); //static in the Point class
